@@ -1,0 +1,16 @@
+<mat-dialog-content *ngIf="modalContentLoaded" class="helo">
+  <h1>{{data.companyName}}</h1>
+  <br> <br>
+  <p class="role">{{data.role}}</p>
+  <p class="period">{{data.period}}</p><br>
+  <p class="projects">{{data.projects}}</p>
+  <br> <br>
+  <ul>
+  <li class="datacon" *ngFor="let sentence of sentences">
+    <p>{{sentence}}</p>
+  </li>
+</ul>
+  <mat-dialog-actions>
+    <button mat-button (click)="dialogRef.close()" class="close">Close</button>
+  </mat-dialog-actions>
+</mat-dialog-content>

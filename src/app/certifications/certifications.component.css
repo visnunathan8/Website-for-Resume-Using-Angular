@@ -1,0 +1,76 @@
+
+
+/* Increase the text size */
+.about{
+  font-size: 400%;
+  border-radius: 5px;
+  padding: 5px;
+  text-shadow: 2px 2px 4px #333;
+  background: linear-gradient(orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 800px;
+}
+
+/* Center the content on the page */
+.content {
+  width: 90%;
+  text-align: center;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: -60px;
+  height: 650px;
+  border-radius: 100px;
+  margin-left: 100px;
+}
+
+/* Add a border and padding to the content container */
+.content {
+  padding: 20px;
+}
+
+/* .div1 {
+  font-size: 200%;
+  border-radius: 5px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(148, 12, 12));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.A {
+  float: left;
+  color: black;
+}
+
+.B {
+  float: right;
+} */
+
+
+.div1 {
+  display: flex;
+  align-items: center;
+  font-size: 150%;
+  font-weight: bolder;
+  color: black;
+}
+
+.A {
+  flex: 0 0 auto; /* Shrink to fit the content */
+  margin-left: 100px;
+  background: rgb(177, 66, 66);
+  width: 20%;
+}
+
+.B {
+  margin-left: 300px; /* Push the progress bar to the right */
+}
+
+progress {
+  height: 70px;
+  width: 800px;
+
+}

@@ -1,0 +1,57 @@
+
+.fa-instagram {
+  background-color: #e4405f; /* Instagram color */
+}
+
+.fa-hackerrank {
+  background-color: lightgreen;
+}
+
+.fa-codeforces {
+  background-color: #2e9cca; /* Codeforces blue */
+  color: #fff; /* white text */
+}
+
+.fa-leetcode{
+  background-color: #22303f; /* LeetCode blue */
+  color: #fff; /* white text */
+}
+
+
+.fa-linkedin {
+  background-color: #0077b5; /* LinkedIn color */
+}
+
+.fa-github {
+  background-color: #333333; /* GitHub color */
+}
+
+.icons {
+  margin-left: 10%;
+
+}
+
+.icons button {
+  height: 50px; /* set button height */
+  width: 110px; /* set button width */
+  margin: 10px 10px;
+  border-radius: 20%;
+  font-size: medium;
+  color: white;
+  font-weight: bold;
+}
+
+.icons button:hover {
+  background-color: #333; /* darken background on hover */
+  color: #fff; /* change text color on hover */
+}
+
+.icons button:active {
+  transform: translateY(2px); /* push button down on click */
+  box-shadow: 0 4px #333; /* add shadow on click */
+}
+
+.icons button:focus {
+  outline: none; /* remove outline */
+  box-shadow: 0 0 0 4px #333; /* add shadow on focus */
+}

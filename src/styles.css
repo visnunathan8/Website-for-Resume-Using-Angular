@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+.divBody {
+  background-color: orange;
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-15deg);
+  left: -83%;
+  top: -50%;
+  z-index: -1;
+}
+
+html, body {
+  height: 100%;
+}
