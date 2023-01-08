@@ -1,3 +1,6 @@
+
+<img width="1792" alt="Screenshot 2023-01-08 at 5 24 22 PM" src="https://user-images.githubusercontent.com/30067377/211222190-9f20de1a-74ef-4b72-b430-c8c33f0e4740.png">
+
 # WebappResume
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
@@ -26,7 +29,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-<img width="1792" alt="Screenshot 2023-01-08 at 5 24 22 PM" src="https://user-images.githubusercontent.com/30067377/211222190-9f20de1a-74ef-4b72-b430-c8c33f0e4740.png">
 
 <img width="1792" alt="Screenshot 2023-01-08 at 5 24 33 PM" src="https://user-images.githubusercontent.com/30067377/211222195-907d3cf0-abec-4166-913b-caa7cbf8eb09.png">
 
